@@ -1,0 +1,53 @@
+
+body {
+  font-size: 16pt;
+}
+
+#comment-form {
+  float: left;
+  width: 90%;
+}
+
+.form-element button {
+  height: 71px;
+  margin-left: 20px;
+  margin-top: 0;
+}
+
+.container {
+  margin-left: auto;
+  margin-right: auto;
+  margin-top:50px;
+  width: 960px;
+}
+
+#messages {height: 58vh;overflow-x: hidden;
+  overflow-y: scroll;
+}
+
+.message {
+  padding: 10px;
+  margin-bottom: 10px;
+  border-bottom: #000 1px solid;
+}
+
+.time {
+  font-size: 12pt;
+}
+
+input {
+  border: #000 1px solid;
+  width: 90%;
+  height: 21px;
+  font-size: 16px;
+}
+
+button {
+  border: #000 1px solid;
+  font-size: 16px;
+  height: 35px:
+}
+
+.comment .links { float: right; }
+.comment .links a { margin-left: 10px; }
+.comment .author { font-style: italic; }
