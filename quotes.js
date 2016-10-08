@@ -72,20 +72,10 @@ $(function () {
     text && postMsg(text);
   });
 
-  // poll server for new messages
-  // setInterval(function () {
-  //   getLatestMessages({timestamp: lastMsgTime});
-  // }, 15000);
-
-  // get msgs from server through websockets
-  dpd.messages.on('new', function (message) {
-    appendMsgs([message]);
-  });
-
-  randomQuoteScheduler();
-
-});
-
+  poll server for new messages
+  setInterval(function () {
+    getLatestMessages({timestamp: lastMsgTime});
+  }, 15000);
 
 // Other ways to post
 // *************************************************
