@@ -34,10 +34,6 @@ function getLatestMessages (opts) {
 
 $(function () {
 
-  dpd.socketReady(function() {
-    console.log('socket is ready');
-  });
-
   getLatestMessages({limit: 10});  //  is this required?
   $('button').click(function () {
     let text = $('input').val();
